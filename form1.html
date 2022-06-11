@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="form1.css">
+</head>
+<body>
+           <header id="title">
+               <h1>Survey Form</h1>
+           </header>
+           <section>
+               <div class="container">
+                  <div class="description">
+                      <p>Let us know how we can improve freeCodeCamp</p>
+                  </div>
+                  <form id="survey-form">
+                    <div class="row-tab">
+                        <div class="label-tab">
+                           <label>Name</label>
+                    </div>
+                    <div class="input-tab">
+                          <input type="text"name="Name" 
+                          placeholder="enter your name">
+                    </div>
+                    </div>
+                    <div class="row-tab">
+                        <div class="label-tab">
+                           <label>Email</label>
+                    </div>
+                    <div class="input-tab">
+                          <input type="email"name="Email"
+                          placeholder="enter your email">
+                    </div>
+                    </div> 
+                    <div class="row-tab">
+                        <div class="label-tab">
+                           <label>Age</label>
+                    </div>
+                    <div class="input-tab">
+                          <input type="number"name="Age"
+                          placeholder="age">
+                    </div>
+                    </div>
+                    <div class="row-tab">
+                        <div class="label-tab">
+                            <label>which option best describes your current role?</label>
+                        </div>
+                    <div class="select-tab">
+                    <select id="select-box">
+                        <option>student</option>
+                        <option>job holder</option>
+                        <option>businessman</option>
+                    </select>
+                  </div>
+               </div>
+               <div class="row-tab">
+                <div class="label-tab">
+                    <label>How likely is that you would recommend freeCodeCamp to afriend?</label>
+                </div>
+                <div>
+                   <input type="radio"name="suggest"value="Definitely"><label>Definitely</label>
+                 </div>
+                 <div>  
+                   <input type="radio"name="suggest"><label>Maybe</label>
+                 </div>
+                 <div>
+                   <input type="radio"name="suggest"><label>Not sure</label>
+                 </div>  
+                </div>
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>
+                            What do you like most in FCC
+                        </label>
+                    </div>
+                <div class="select-tab"> 
+                <select>
+                    <option>Select an item</option>
+                    <option>Option-1</option>
+                    <option>Option-2</option>
+                </select>
+                </div>
+                </div>
+                <div class="row-tab">
+                    <div class="label-tab">
+                        <label>Things that should be improved in the future (check all that apply)</label>
+                    </div>
+                    <div class="input-tab">
+                        <div>
+                        <input type="radio"name="project"value="front-end projects"><label>front-end projects</label>
+                        </div>
+                        <div>
+                        <input type="radio"name="project"value="back-end projects"><label>back-end projects</label>
+                        </div>
+                        <div>
+                        <input type="radio"name="project"value="data visulization"><label>data visulization</label>
+                        </div>
+                    </div>
+                </div>
+               </form>
+              </div>  
+           </section>
+
+</body>
+</html>
